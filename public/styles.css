@@ -250,9 +250,9 @@ body.theme3 {
 	grid-area: cont;
 	background-color: var(--keypad-bg);
 	border-radius: 1.4vh;
-	margin-top: 20px;
+	margin-top: 4vh;
 	margin-bottom: 7vh;
-	padding: 20px;
+	padding: 4vh;
 
 	display: grid;
 	grid-template-areas: 
