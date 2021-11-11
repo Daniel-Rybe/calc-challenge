@@ -124,7 +124,7 @@ $('.button-equals').click(e => {
 	}
 
 	if (op == '/' && equals_buffer == 0) {
-		display.html('ERRROR');
+		display.html('ERROR');
 		return;
 	}
 
