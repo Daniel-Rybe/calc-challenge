@@ -263,7 +263,7 @@ body.theme3 {
 	"res   res   eq    eq";
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 3vh;
+	grid-gap: 2vh;
 }
 
 .button {
@@ -400,5 +400,6 @@ body.theme3 {
 
 	.controls {
 		margin-bottom: 0px;
+		grid-gap: 3vh;
 	}
 }
