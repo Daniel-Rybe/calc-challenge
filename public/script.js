@@ -54,7 +54,7 @@ function opFuncGenerator(op_) {
 				return;
 			}
 			num = applyOp(buffer, num, op);
-			display.html(num.toString().substr(0, 13));
+			display.html(num.toString());
 		}
 
 		buffer = num;
@@ -70,7 +70,7 @@ function inputFuncGenerator(input) {
 			display.html('');
 			clearScreen = false;
 		}
-		display.html((display.html() + input).substr(0, 13));
+		display.html(display.html() + input);
 	}
 }
 
@@ -130,7 +130,7 @@ $('.button-equals').click(e => {
 
 	let newNum = applyOp(num, equals_buffer, op);
 
-	display.html(newNum.toString().substr(0, 13));
+	display.html(newNum.toString());
 	clearScreen = true;
 	buffer = undefined;
 });
